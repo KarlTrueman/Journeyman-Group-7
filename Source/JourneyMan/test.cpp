@@ -20,7 +20,7 @@ FString Utest::LoadFileToString(FString Filename)
 	return result;
 }
 
-TArray<FString> Utest::LoadFileToStringArray(FString Filename)
+bool Utest::FileSaveString(FString SaveTextB, FString FileNameB)
 {
-	return TArray<FString>();
+	return FFileHelper::SaveStringToFile(SaveTextB, *(FPaths::ProjectContentDir() + FileNameB));
 }

@@ -19,8 +19,10 @@ class JOURNEYMAN_API Utest : public UBlueprintFunctionLibrary
 		UFUNCTION(BlueprintCallable, category = "File I/O")
 		static FString LoadFileToString(FString Filename);
 
-		UFUNCTION(BlueprintCallable, category = "File I/O")
-		static TArray<FString> LoadFileToStringArray(FString Filename);
+
+		UFUNCTION(BlueprintCallable, Category = "File I/O")
+		static bool FileSaveString(FString SaveTextB, FString FileNameB);
+
 
 
 };
