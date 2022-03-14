@@ -72,3 +72,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/Mansion_Assets/lambert1.uasset
+Content/Mansion_Assets/MansionInside.uasset
+Content/Mansion_Assets/MansionOutside.uasset
+Content/Mansion_Assets/MansionOutside_PhysicsAsset.uasset
+Content/Mansion_Assets/MansionOutside_Skeleton.uasset
+Content/Mansion_Assets/pasted__pasted__Dark_Red.uasset
+Content/Mansion_Assets/pasted__pasted__Glass.uasset
+Content/Mansion_Assets/stairs_collision_test.uasset
